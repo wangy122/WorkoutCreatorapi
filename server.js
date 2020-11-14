@@ -7,6 +7,7 @@ mobileApp.tables.add('Members');
 mobileApp.tables.add('Users');
 mobileApp.tables.add('Intervals');
 mobileApp.tables.add('SetList');
+mobileApp.tables.add('Workout');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
