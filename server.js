@@ -6,7 +6,7 @@ mobileApp.tables.add('Groups'); // Create a table for 'Book' with default settin
 mobileApp.tables.add('Members');
 mobileApp.tables.add('Users');
 mobileApp.tables.add('Intervals');
-mobileApp.tables.add('Sets');
+mobileApp.tables.add('SetList');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
