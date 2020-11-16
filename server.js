@@ -9,6 +9,6 @@ mobileApp.tables.add('Intervals');
 mobileApp.tables.add('SetList');
 mobileApp.tables.add('Workout');
 mobileApp.tables.add('Assign');
-
+mobileApp.tables.add('RunnerTimes');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
